@@ -1,0 +1,353 @@
+@font-face {
+    font-family: "AlternateGothic";
+    src: url("../assets/alternate-gothic-atf-demi.otf") format("opentype");
+}
+@font-face {
+    font-family: "Veneer";
+    src: url("../assets/Veneer-Three.woff2");
+}
+.manifestaciones{
+	object-fit:contain;
+	pointer-events: none;
+}
+.window-app .window-content {
+    background: url(../assets/Fondo_Estirpe.webp);
+    background-size: cover;
+	font-family:'AlternateGothic';
+	font-size:14px;
+}
+.titulos h3{
+	font-family:'Veneer';
+	font-size:30px;
+	font-weight:100;
+	text-align:center;
+	border: 2px;
+	color: black;
+}
+.manifpanel {
+	border: 2px solid #4e5651;
+	border-radius:7px;
+	margin:0px;
+	padding: 0px;
+	grid-template-columns:66% 32%;
+}
+.espclass{
+	font-family:'AlternateGothic';
+	font-size:14px;
+	color: black;
+}
+.tablehab {
+    display: block;
+}
+.fisicotable{
+    padding-left: 10px;
+}
+.descripcion {
+	font-size:14px;
+	padding-top:10px;
+	color: black;
+	padding-top:0px;
+}
+.charname{
+	font-family:'Veneer';
+	font-size:40px;
+}
+.dadosdib{
+	margin-left:-70px;
+}
+.dadoscheck{
+	margin-right:-62px;
+	margin-top:-2px;
+	z-index:9;
+}
+.dadoscheck input[type="checkbox"] {
+  transform: scale(2);
+	opacity: 0;
+}
+.dadoscheck input[type="checkbox"]:checked {
+	opacity: 0.6;
+	filter: invert(100%);
+}
+.checkincap{
+	margin-top:48px;
+	margin-bottom:48px;
+}
+.checkincap input[type="checkbox"] {
+  transform: scale(2.5);
+}
+.checkincap input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.hitostext {
+	font-family:'AlternateGothic';
+	font-size:14px;
+	color: black;
+	margin-right:5px;
+}
+.hitostext label{
+	font-family:'Veneer';
+	font-size:16px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 5px;
+	padding: 2px 6px 2px 6px;
+}
+.custom-system-roll {
+    background: #fff0;
+    border: 0px solid #4b4a44;
+	font-family:'Veneer';
+	font-size:30px;
+	font-weight:600;
+}
+.chat-message .message-content h1{
+font-family:'Veneer';
+	font-size:30px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content h2{
+font-family:'Veneer';
+	font-size:25px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.chat-message .message-content p{
+font-family:'Veneer';
+	font-size:15px;
+	font-weight:700;
+	text-align:center;
+	border:0px;
+}
+.experiencenumbers {
+	font-family:'Veneer';
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	color:black;
+}
+.notastextwindow {
+	font-family:'AlternateGothic';
+	font-size:15px;
+	text-align:justify;
+	color: black;
+}
+.tabbedpanel {
+	font-family:'Veneer';
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	color:#505851;
+}
+.tabbedpanel .item.active{
+	text-decoration: underline;
+	color:black;
+}
+.tablehabilidadestotal {
+	vertical-align: top;
+}
+.chat-message .message-header .message-sender {
+    font-family: 'Veneer';
+}
+.panelarmasvida{
+	grid-template-columns:66% 34%;
+	width:100%;
+	gap:0px;
+}
+.imagedice{
+	margin-bottom:-3px;
+	margin-top:-5px;
+	margin-left: -20px;
+}
+.tablehabilidades table{
+	background-color: #f0f8ff00;
+	border: 0px;
+}
+.tablehabilidades table tr:first-child td:first-child{
+	background-color: #000000;
+	border-radius:7px 0px 0px 7px;
+}
+.tablehabilidades table tr:first-child td{
+	background-color: #000000;
+	border-radius:0px 7px 7px 0px;
+}
+.tituloshab a h3{
+	font-family:'Veneer';
+	font-size:20px;
+	margin-bottom:0px;
+	color: #e9f4ee;
+}
+.habnum input{
+	font-family:'Veneer';
+	font-size:20px;
+	margin-bottom:0px;
+	background-color: #e9f4ee;
+}
+.titulosvida{
+	font-family:'Veneer';
+	font-size:20px;
+	color: #e9f4ee;
+}
+.titulosvida h3{
+	margin:5px;
+}
+.tabladados table{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.vidatable table{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tablevitinc{
+	background-color: #f0f8ff00;
+	border-bottom:2px solid #505851;
+	border-left:2px solid #505851;
+	border-right:2px solid #505851;
+	border-radius:10px;
+}
+.tablevitinc tr:first-child td{
+	background-color: #505851;
+	border-radius:9px 9px 0px 0px;
+}
+.tabladados table tr:first-child td{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tablainc table tr:first-child td{
+	background-color: #f0f8ff00;
+	border:0px;
+}
+.tablehabilidadesprim table{
+	background-color: #f0f8ff00;
+	border: 0px;
+	padding-right:5px;
+}
+.tablehabilidadesprim table tr:first-child td:first-child{
+	background-color: #000000;
+	border-radius:7px 0px 0px 7px;
+}
+.tablehabilidadesprim table tr:first-child td{
+	background-color: #000000;
+	border-radius:0px 7px 7px 0px;
+}
+.tablehabilidadesprim {
+	padding-right:3px;
+}
+.tablepasos table{
+	background-color: #f0f8ff00;
+	border: 0px;
+}
+.pasoscheck input{
+	margin:0px;
+}
+.panelhitospasos{
+	grid-template-columns:30% 70%;
+}
+.tablaarmas{
+	font-family:'AlternateGothic';
+	font-size:17px;
+	color: black;
+}
+.tablaarmas table{
+	border: 0px;
+	background-color:  #f0f8ff00;
+	margin: 0px;
+}
+.tablaarmas{
+	border-bottom:1px solid;
+	border-left:1px solid;
+	border-right:1px solid;
+	background-color:  #f0f8ff00;
+	border-radius: 5px;
+}
+.tablaarmas table tr:first-child{
+	font-family:'Veneer';
+	font-size:15px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 0px 5px 0px 0px;
+}
+.tablaarmas table tr:first-child td:last-child{
+	font-family:'Veneer';
+	font-size:15px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 0px 5px 0px 0px;
+}
+.tablaarmas table tr:first-child td:first-child{
+	font-family:'Veneer';
+	font-size:15px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 5px 0px 0px 0px;
+}
+.tablaarmas table td:first-child a{
+	color: darkred;
+	margin-left:5px;
+}
+.tablaarmas table td:first-child a img{
+	display:none;
+}
+.labelsexp{
+	font-family:'Veneer';
+	font-size:14px;
+	color: #e9f4ee;
+	background-color:black;
+	border-radius: 5px;
+	padding-left:2px;
+	padding-right:2px;
+}
+.exptext{
+	font-family:'AlternateGothic';
+	font-size:14px;
+	color: black;
+	padding-right:0px;
+}
+.paneldescexp{
+	grid-template-columns:60% 40%;
+	width: 100%;
+}
+.desctitulo h3{
+	font-family:'Veneer';
+	font-size:20px;
+	font-weight:700;
+	text-align:center;
+	color:black;
+	padding-bottom:0px;
+	margin-bottom: 0px;
+}
+.paneliniciativa{
+	font-family:'Veneer';
+	font-size:18px;
+	font-weight:700;
+	text-align:center;
+	color:black;
+	color:black;
+	grid-template-columns:40% 28% 15% 10%;
+}
+.dropdownarmas{
+	font-family:'AlternateGothic';
+	font-size:14px;
+}
+.panelexp{
+	grid-template-columns:60% 30%;
+}
+.masivprot{
+	grid-template-columns:10% 5% 13% 70%;
+}
+.multvitpanel{
+	grid-template-columns:65% 25%;
+}
+.imagedicepnj {
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left: -20px;
+}
+.imagedicepnj {
+	pointer-events: none;
+}
+.imagedice {
+	pointer-events: none;
+}
