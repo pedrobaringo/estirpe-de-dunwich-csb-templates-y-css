@@ -16,9 +16,9 @@
 ## Introducción
 Modulo de Foundry VTT con las templates de las fichas para el juego Estirpe de Dunwich para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
 
-Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente enlace: 
+Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente video: 
 
-[![Video del tutorial](http://img.youtube.com/vi/2LBxsz_r_Wg/0.jpg)](http://www.youtube.com/watch?v=2LBxsz_r_Wg "Tutorial Foundry-Troubleshooters")
+[![Video del tutorial](http://img.youtube.com/vi/TkVgYwYINrE/0.jpg)](http://www.youtube.com/watch?v=TkVgYwYINrE "Tutorial Foundry-Estirpe de Dunwich")
 
 
 ## Instalación
