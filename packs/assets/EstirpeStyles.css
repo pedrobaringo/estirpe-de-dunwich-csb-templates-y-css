@@ -351,3 +351,73 @@ font-family:'Veneer';
 .imagedice {
 	pointer-events: none;
 }
+.panelarmasvida div:empty{
+	display:none;
+}
+.checkincapx2{
+	margin-top:16px;
+	margin-bottom:15px;
+}
+.checkincapx2 input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.checkincapx2 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx05{
+	margin-top:58px;
+	margin-bottom:58px;
+}
+.checkincapx05 input[type="checkbox"] {
+  transform: scale(2.5);
+}
+.checkincapx05 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx15{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.checkincapx15 input[type="checkbox"] {
+  transform: scale(2);
+}
+.checkincapx15 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx3{
+	margin-top:27px;
+	margin-bottom:26px;
+}
+.checkincapx3 input[type="checkbox"] {
+  transform: scale(2);
+}
+.checkincapx3 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkvitx3{
+	margin-left:-10px;
+}
+.checkincapx4{
+	margin-top:16px;
+	margin-bottom:15px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.checkincapx4 input[type="checkbox"] {
+  transform: scale(2);
+}
+.checkincapx4 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
+.checkincapx5{
+	margin-top:9.5px;
+	margin-bottom:9px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.checkincapx5 input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.checkincapx5 input[type="checkbox"]:checked {
+	filter: invert(100%);
+}
