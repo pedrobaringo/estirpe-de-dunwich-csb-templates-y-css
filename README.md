@@ -86,7 +86,7 @@ En la parte de arriba se puede escribir la descripción, escribir que nivel de M
 
 A continuación, en la parte izquierda encontramos las habilidades de Físico, Lucha y Armas de Fuego, asi como las tablas donde arrastrar las Armas desde la pestaña de objetos de Foundry y el selector de Iniciativa.
 
-A la Derecha encontramos los medidores de Vitalidad e Incapacitación. Si modificamos el Multiplicador de Vitalidad estos medidores cambiarán (y en los casos de multiplicadores altos se desplazarán debajo de las habilidades por falta de espacio.
+A la derecha encontramos los medidores de Vitalidad e Incapacitación. Si modificamos el Multiplicador de Vitalidad estos medidores cambiarán (y en los casos de multiplicadores altos se desplazarán debajo de las habilidades por falta de espacio.
 
 ## Crear Objetos
 Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
