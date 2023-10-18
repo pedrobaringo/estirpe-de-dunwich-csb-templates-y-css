@@ -9,9 +9,6 @@
   - [Pestaña de Manifestación](#pestaña-de-manifestación)
   - [Pestaña de Trasfondo y Notas](#pestaña-de-trasfondo-y-notas)
 - [Crear un PNJ](#crear-un-pnj)
-  - [Pestaña de Habilidades](#pestaña-de-habilidades-1)
-  - [Pestaña de Combate](#pestaña-de-combate-1)
-  - [Pestaña de Descripción y Notas](#pestaña-de-descripción-y-notas-1)
 - [Crear Objetos](#crear-objetos)
 - [Hacer tiradas](#hacer-tiradas)
 - [Iniciativa y Combate](#iniciativa-y-combate)
@@ -57,7 +54,9 @@ Una vez hemos seleccionado la template y hacemos click en el icono de refrescar 
 En la parte de arriba se pueden poner la descripción y los puntos de experiencia y los costes de avances.
 
 ### Pestaña de Habilidades
-En la pestaña de habilidades se pueden modificar los valores de las habilidades, escribir las especialidades, añadir las armas cuerpo a cuerpo y a distancia arrastrandolas desde objetos y masrcar las casillas de vitalidad e incapacitación. Tambien está el apartado de iniciativa que comentaremos más adelante.
+En la pestaña de habilidades se pueden modificar los valores de las habilidades, escribir las especialidades, añadir las armas cuerpo a cuerpo y a distancia arrastrandolas desde objetos (se pueden modificar haciendo click en el nombre) y marcar las casillas de vitalidad e incapacitación.
+
+Tambien está el apartado de iniciativa que comentaremos más adelante.
 
 ![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/a5e242b5-5582-4c9e-8046-62819e655e0b)
 
@@ -74,7 +73,7 @@ En esta última pestaña podemos rellenar el trasfondo del PJ y tomar notas.
 ## Crear un PNJ
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/8968dfd6-5c10-4106-93c1-46780300058a)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/1286067f-37f3-48fb-8e5b-d860ce6dea84)
 
 Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_Template segun el siguiente criterio:
 * Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PNJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.
@@ -82,83 +81,44 @@ Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_T
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/1879812a-426b-49f7-a77e-97129bfce476)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/dbe7d913-d2b2-42ab-9eb8-2ed051c55439)
 
-En la parte de arriba se pueden poner la vitalidad máxima y actual y podemos asignarle la iniciativa si es un valor fijo o hacer check en la casilla de encima si la iniciativa es con una tirada de Acción.
+En la parte de arriba se puede escribir la descripción, escribir que nivel de Masivo tiene y que Protección lleva o tiene.
 
-Tambien apareceran aqui las etiquetas que arrastremos a este personaje y la casilla de Dar la Vuelta a las tiradas si le arrastramos la correspondiente etiqueta (que está en la carpeta "Etiquetas Adversarios").
+A continuación, en la parte izquierda encontramos las habilidades de Físico, Lucha y Armas de Fuego, asi como las tablas donde arrastrar las Armas desde la pestaña de objetos de Foundry y el selector de Iniciativa.
 
-### Pestaña de Habilidades
-En esta pestaña podemos poner los valores de ha habilidad básica y Especialista así como añadir más habilidades con el botón +.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/adc9089d-7058-4893-9c86-81908d5062d4)
-
-### Pestaña de Combate
-En esta pestaña podeis añadir las armas con el botón + con todas sus estadisticas, podeis definir el valor de defensa si tiene así como la protección.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/ea1d1cb3-49ce-4156-be2c-23ce75eaba0a)
-
-### Pestaña de Descripción y Notas
-En esta última pestaña podemos tomar notas o describir al personaje.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/7670cc6d-3ca5-4b7a-9203-76fd6ddf92af)
+A la Derecha encontramos los medidores de Vitalidad e Incapacitación. Si modificamos el Multiplicador de Vitalidad estos medidores cambiarán (y en los casos de multiplicadores altos se desplazarán debajo de las habilidades por falta de espacio.
 
 ## Crear Objetos
 Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
 Los tipos son:
-* **Armas_CaC_Template**: Para armas Cuerpo a Cuerpo, solo para PJ.
+* **Arma_Template**: Para armas Cuerpo a Cuerpo.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/032ce1b5-5de8-4cff-9050-ca47a1a1ccd5)
+Se puede definir el Daño (cuantos dados se tirarán), el Penalizador de Iniciativa (-1 si es arma improvisada o desarmado), el alcance y las notas con las peculiaridades del arma.
 
-* **Armas_Dist_Template**: Para armas a Distancia, solo para PJ.
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/7e588ede-00cd-4af8-8d81-d461bf35c48b)
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/cf9ecdba-2816-4545-b2bf-cc294ce6667e)
+* **ArmaFuego_template**: Para armas a Distancia.
 
+Se puede definir el Daño (cuantos dados se tirarán), el alcance y las notas con las peculiaridades del arma (como el Trauma).
+
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/ae1825a8-5303-4c6d-86f3-b000bce7e03b)
   
-* **Complicacion_Template**: Para las Complicaciones, solo para PJ.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/5d88451e-87c1-4c0e-8cc0-255f2abea010)
-
-
-* **Talento_Template**: Para los Talentos, solo para PJ.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/e5b862ba-1c5a-43c9-a032-1d46e63298ae)
-
-
-* **Estados_Template**: Para los Estados, sirve para PJs y PNJs.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/ebeb889d-d5a1-4942-bf53-60948138272d)
-
-
-* **Etiquetas_Template**: Para las etiquetas de los PNJs.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/33e16ba9-d43c-479c-a3da-991a1955bbd5)
-
 ## Hacer tiradas
-Para hacer tiradas simplemente se tiene que hacer click en la habilidad o icono de dado correspondiente o en el botón en el caso de ataques. Saldrá el mensaje en el chat con los botones para dar la vuelta a la tirada gastando puntos de Historia (se restan automaticamente) y el Daño si corresponde.
-Al clickar en los botones se genera un nuevo mensaje con el resultado correspondiente a la acción. Si sale un resultado de Karma se suma automaticamente el punto de Historia a la ficha del Personaje.
+Para hacer tiradas simplemente se tiene que hacer click en la habilidad con el icono de dados y aparecerá el mensaje de chat con el resultado.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/8e6f3f8f-ca9e-4579-8fee-6a63a356e79b)
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/e4918cd5-30e8-471e-b3cc-bae567ec225a)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/8ee3c0d6-3d8e-4bef-ac90-e533daba0323)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/949f7c9a-4b9c-4598-8bd2-284faae7e2ad)
 
-Para aplicar un modificador a la tirada, se deberá pulsar la tecla "Mayus" mientras se hace click. Aparecerá un dialogo donde podemos asignar el modificador positivo o negativo. Esto funciona solo en las tiradas donde puede haber modificador.
+Para aplicar un modificador a la tirada, se deberá pulsar la tecla "Mayus" mientras se hace click. Aparecerá un dialogo donde podemos asignar el modificador positivo o negativo, añadiendo o quitando dados a la tirada.
 
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/14c370ba-017a-4d69-b5e8-5594f2e2bbea)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/9c4f6dfb-d659-405a-a81a-71ab2d90970b)
 
 ## Iniciativa y Combate
-Antes de empezar un combate, todos los PJs y los PNJs que tengan de Iniciativa una tirada de acción, deberan hacer click en su iniciativa para que se lancen los dados y se calcule.
+Antes de empezar un combate, todos los PJs y los PNJs deberan elegir "¿Que tipo de arma vas a usar?", lo que determinará la Iniciativa.
+
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/95005b3b-db94-47a8-bb8e-7deb55d04317)
 
 Solo cuando lo hayan hecho todos se podrá "tirar" la iniciativa en el menú de "Encuentros de Combate". Se ordenarán los actores de mayor iniciativa a menor.
 
-Como caso particular, si se hace una acción "¡PAM! - Disparo preciso" la iniciativa en la ficha bajará en 2 puntos automaticamente, pero se tendrá que volver a calcular para el siguiente turno en "Encuentros de Combate".
-
-En el caso de "¡RATATATA! - Vaciar el Arma" saldrán dos botones de daño, el normal que se aplica si impactas a varios personajes y el "Daño a un solo objetivo" que añade dos dados al daño automaticamente si solo te concentras en un objetivo.
-
-![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/99d65377-8e29-4f49-bba6-410e97babd60)
-
-## Posibles problemas
-Debido a como esta creado el sistema Custom System Builder, tuve que implementar los botones del chat de una forma poco óptima. Esto puede provocar que algunas veces no aparezcan los botones o aparezcan en mensajes anteriores (creo que puede ser más habitual con conexiones lentas, pero no he podido probarlo).
-
-Este problema no afecta a los resultados de las tiradas y si se quiere dar la vuelta a la tirada se puede hacer mentalmente y restar los puntos de Historia manualmente en la ficha.
-
-En el caso que sucediese en una tirada de combate y no apareciese el botón de Daño, se puede hacer la tirada usando en el chat la siguiente formula (explotan los 6 y cuenta como éxitos los valores superiores o iguales a 4) sustituyendo Y por el número de dados de daño que se tirarian: **Yd6x6cs>=4** 
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/42a40ac2-6261-4aca-9301-dbf040b76c46)
