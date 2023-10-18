@@ -18,7 +18,7 @@ Modulo de Foundry VTT con las templates de las fichas para el juego Estirpe de D
 
 Para aprender como instalarlo y usarlo podeis ver el tutorial en el siguiente video: 
 
-[![Video del tutorial](http://img.youtube.com/vi/TkVgYwYINrE/0.jpg)](http://www.youtube.com/watch?v=TkVgYwYINrE "Tutorial Foundry-Estirpe de Dunwich")
+[![Video del tutorial](http://img.youtube.com/vi/xB_77tavA2w/0.jpg)](http://www.youtube.com/watch?v=xB_77tavA2w "Tutorial Foundry-Estirpe de Dunwich")
 
 
 ## Instalación
