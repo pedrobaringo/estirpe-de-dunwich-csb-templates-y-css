@@ -12,7 +12,6 @@
 - [Crear Objetos](#crear-objetos)
 - [Hacer tiradas](#hacer-tiradas)
 - [Iniciativa y Combate](#iniciativa-y-combate)
-- [Posibles problemas](#posibles-problemas)
 
 ## Introducción
 Modulo de Foundry VTT con las templates de las fichas para el juego Estirpe de Dunwich para el sistema Custom System Builder ( https://foundryvtt.com/packages/custom-system-builder ).
