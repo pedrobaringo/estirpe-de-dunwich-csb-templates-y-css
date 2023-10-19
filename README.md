@@ -36,6 +36,8 @@ Para que el estilo de las fichas y mensajes sean más parecidos al libro debemos
 
 ![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/09cf2f26-2b2c-426d-8433-28be37e88215)
 
+Para que tenga efecto debemos refrescar la página.
+
 ## Crear un PJ
 Una vez estan importadas las templates ya podemos crear los Actores.
 Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "character" y se nos creará una ficha en blanco.
