@@ -421,3 +421,7 @@ font-family:'Veneer';
 .checkincapx5 input[type="checkbox"]:checked {
 	filter: invert(100%);
 }
+.tablaarmas a.content-link{
+	background:transparent;
+	border: 0px; 
+}
