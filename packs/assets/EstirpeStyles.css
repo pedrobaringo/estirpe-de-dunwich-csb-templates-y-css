@@ -425,3 +425,10 @@ font-family:'Veneer';
 	background:transparent;
 	border: 0px; 
 }
+.custom-system-roll i{
+	display: none;
+}
+.custom-system-roll {
+    background: #fff0;
+    border: 0px solid #4b4a44;
+}
