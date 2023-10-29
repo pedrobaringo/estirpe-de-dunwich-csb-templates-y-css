@@ -1,3 +1,5 @@
+![Fondo Tutorial_Estirpe](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/22964624-e3ce-48a3-98f6-33da179b74d4)
+
 # Fichas para Estirpe de Dunwich en Custom System Builder
 
 ## Tabla de Contenido
