@@ -52,7 +52,7 @@ Aqui tenemos que seleccionar en Template una de las dos templates llamadas PJ_Te
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/00175060-33d6-471c-a52a-761bed0f16da)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/f8546427-eee0-4c13-bfea-bff13fbea094)
 
 En la parte de arriba se pueden poner la descripción y los puntos de experiencia y los costes de avances.
 
@@ -61,12 +61,12 @@ En la pestaña de habilidades se pueden modificar los valores de las habilidades
 
 Tambien está el apartado de iniciativa que comentaremos más adelante.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/a5e242b5-5582-4c9e-8046-62819e655e0b)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/287bab24-9daa-4f5f-80e5-9937a717f62d)
 
 ### Pestaña de Manifestación
 En esta pestaña podemos describir la Manifestación de Yog-Sothoth de nuestro personaje, modificar los factores humano y primigenio y marcar los pasos hacia el umbral con sus hitos y deformidades pertinentes. Tambien tenemos la tabla de "Magnitudes de las Manifestaciones".
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/4a53bfe9-fbe7-4d12-a567-0582a6b46408)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/9b21308a-b413-41cd-a3c2-a0d7f94c7943)
 
 ### Pestaña de Trasfondo y Notas
 En esta última pestaña podemos rellenar el trasfondo del PJ y tomar notas.
@@ -84,13 +84,13 @@ Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_T
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/dbe7d913-d2b2-42ab-9eb8-2ed051c55439)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/a52c5129-8ef4-4dc5-ba7e-81525099e025)
 
 En la parte de arriba se puede escribir la descripción, escribir que nivel de Masivo tiene y que Protección lleva o tiene.
 
 A continuación, en la parte izquierda encontramos las habilidades de Físico, Lucha y Armas de Fuego, asi como las tablas donde arrastrar las Armas desde la pestaña de objetos de Foundry y el selector de Iniciativa.
 
-A la derecha encontramos los medidores de Vitalidad e Incapacitación. Si modificamos el Multiplicador de Vitalidad estos medidores cambiarán (y en los casos de multiplicadores altos se desplazarán debajo de las habilidades por falta de espacio.
+A la derecha encontramos los medidores de Vitalidad e Incapacitación. Si modificamos el Multiplicador de Vitalidad estos medidores cambiarán.
 
 ## Crear Objetos
 Si hacemos click en crear objeto y elegimos el tipo "equippableItem" podremos crear objetos de todos los tipos usando las templates.
