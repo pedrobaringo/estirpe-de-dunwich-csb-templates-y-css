@@ -8,7 +8,6 @@
 }
 .manifestaciones{
 	object-fit:contain;
-	pointer-events: none;
 }
 .window-app .window-content {
     background: url(../assets/Fondo_Estirpe.webp);
@@ -51,22 +50,6 @@
 .charname{
 	font-family:'Veneer';
 	font-size:40px;
-}
-.dadosdib{
-	margin-left:-70px;
-}
-.dadoscheck{
-	margin-right:-62px;
-	margin-top:-2px;
-	z-index:9;
-}
-.dadoscheck input[type="checkbox"] {
-  transform: scale(2);
-	opacity: 0;
-}
-.dadoscheck input[type="checkbox"]:checked {
-	opacity: 0.6;
-	filter: invert(100%);
 }
 .checkincap{
 	margin-top:48px;
@@ -154,11 +137,6 @@ font-family:'Veneer';
 	grid-template-columns:66% 34%;
 	width:100%;
 	gap:0px;
-}
-.imagedice{
-	margin-bottom:-3px;
-	margin-top:-5px;
-	margin-left: -20px;
 }
 .tablehabilidades table{
 	background-color: #f0f8ff00;
@@ -345,12 +323,6 @@ font-family:'Veneer';
 	margin-top:0px;
 	margin-left: -20px;
 }
-.imagedicepnj {
-	pointer-events: none;
-}
-.imagedice {
-	pointer-events: none;
-}
 .panelarmasvida div:empty{
 	display:none;
 }
@@ -394,9 +366,6 @@ font-family:'Veneer';
 .checkincapx3 input[type="checkbox"]:checked {
 	filter: invert(100%);
 }
-.checkvitx3{
-	margin-left:-10px;
-}
 .checkincapx4{
 	margin-top:16px;
 	margin-bottom:15px;
@@ -431,4 +400,138 @@ font-family:'Veneer';
 .custom-system-roll {
     background: #fff0;
     border: 0px solid #4b4a44;
+}
+.sixdice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/seisdado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.sixdice input[type="checkbox"]:checked {
+    background: url(../assets/seisdadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.fivedice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/cincodado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.fivedice input[type="checkbox"]:checked {
+    background: url(../assets/cincodadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.fourdice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/Cuatrodado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.fourdice input[type="checkbox"]:checked {
+    background: url(../assets/CuatrodadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.threedice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/tresdado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.threedice input[type="checkbox"]:checked {
+    background: url(../assets/tresdadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.twodice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/dosdado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.twodice input[type="checkbox"]:checked {
+    background: url(../assets/dosdadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.onedice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/unodado.webp);
+	background-size:40px;
+	flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.onedice input[type="checkbox"]:checked {
+    background: url(../assets/unodadoX.webp);
+	background-size:40px;
+	-webkit-filter: none !important;
+}
+.trescuatrodice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/trescuatro.webp);
+	background-size:85px;
+	flex: 0 0 85px;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+	background-repeat: no-repeat;
+}
+.trescuatrodice input[type="checkbox"]:checked {
+    background: url(../assets/trescuatroX.webp);
+	background-size:85px;
+	-webkit-filter: none !important;
+	background-repeat: no-repeat;
+}
+.unodosdice input[type="checkbox"] {
+    -webkit-appearance: initial;
+    appearance: initial;
+    background: url(../assets/unodos.webp);
+	background-size:85px;
+	flex: 0 0 85px;
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+	background-repeat: no-repeat;
+}
+.unodosdice input[type="checkbox"]:checked {
+    background: url(../assets/unodosX.webp);
+	background-size:85px;
+	-webkit-filter: none !important;
+	background-repeat: no-repeat;
+}
+.manifestaciones {
+	text-decoration: none;
+	grid-column: 1 / span 6;
+	background-image: url(../assets/Magnitudes%20Manifestación.JPG);
+	background-size: 100%, auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+	height: 100%;
+	width: 100%;
 }
