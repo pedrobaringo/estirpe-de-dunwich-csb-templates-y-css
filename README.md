@@ -5,7 +5,7 @@
 ## Tabla de Contenido
 - [Introducción](#introducción)
 - [Instalación](#instalación)
-- [Añadir estilos CSS](#añadir-estilos-css)
+- [Configurar fórmula de Iniciativa](#configurar-fórmula-de-iniciativa)
 - [Crear un PJ](#crear-un-pj)
   - [Pestaña de Habilidades](#pestaña-de-habilidades)
   - [Pestaña de Manifestación](#pestaña-de-manifestación)
@@ -33,10 +33,10 @@ Es importante que importes primero los Objetos y después los Actores, pero sobr
 
 ![image](https://github.com/pedrobaringo/the-troubleshooters-csb-es/assets/148097688/6fa9c0c2-1936-4db6-99b2-7e80f54e7172)
 
-## Añadir estilos CSS
-Para que el estilo de las fichas y mensajes sean más parecidos al libro debemos ir a Configurar Ajustes --> Custom System Builder y allí rellenar el campo CSS Style file con **"modules/estirpe-de-dunwich-csb-templates-y-css/packs/assets/EstirpeStyles.css"**, sin las comillas. Y ya que estamos en este menú, aprovechamos para cambiar la Initiative formula a **"iniciativa"** (sin las comillas y en minuscula) y en Roll Icons ponemos **"dice"** (tambien sin comillas).
+## Configurar fórmula de Iniciativa
+Para configurar la fórmula de Iniciativa debemos ir a Configurar Ajustes --> Custom System Builder y allí cambiar la Initiative formula a **"iniciativa"** (sin las comillas y en minuscula) y en Roll Icons ponemos **"dice"** (tambien sin comillas).
 
-![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/09cf2f26-2b2c-426d-8433-28be37e88215)
+![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/ee648fbb-139a-4de2-b68c-5d82108691e8)
 
 Para que tenga efecto debemos refrescar la página.
 
