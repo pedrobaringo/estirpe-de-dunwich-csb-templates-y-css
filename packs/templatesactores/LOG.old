@@ -1,8 +1,15 @@
-2023/10/18-10:16:31.411663 7f039cff9700 Recovering log #18
-2023/10/18-10:16:31.418335 7f039cff9700 Delete type=3 #16
-2023/10/18-10:16:31.418373 7f039cff9700 Delete type=0 #18
-2023/10/18-10:53:49.287707 7f038fbfe700 Level-0 table #23: started
-2023/10/18-10:53:49.287733 7f038fbfe700 Level-0 table #23: 0 bytes OK
-2023/10/18-10:53:49.290235 7f038fbfe700 Delete type=0 #21
-2023/10/18-10:53:49.290366 7f038fbfe700 Manual compaction at level-0 from '!actors!5r85xNAfZUESWMhc' @ 72057594037927935 : 1 .. '!folders!Us4IKOsaUR5Q36vu' @ 0 : 0; will stop at (end)
-2023/10/18-10:53:49.295950 7f038fbfe700 Manual compaction at level-1 from '!actors!5r85xNAfZUESWMhc' @ 72057594037927935 : 1 .. '!folders!Us4IKOsaUR5Q36vu' @ 0 : 0; will stop at (end)
+2024/01/24-11:56:58.899841 7f862bfff700 Recovering log #31
+2024/01/24-11:56:58.906948 7f862bfff700 Delete type=0 #31
+2024/01/24-11:56:58.906975 7f862bfff700 Delete type=3 #29
+2024/01/24-12:06:03.335485 7f862aa4d700 Level-0 table #36: started
+2024/01/24-12:06:03.340925 7f862aa4d700 Level-0 table #36: 59598 bytes OK
+2024/01/24-12:06:03.342979 7f862aa4d700 Delete type=0 #34
+2024/01/24-12:06:03.362973 7f862aa4d700 Manual compaction at level-0 from '!actors!CuAFm8tw8tgKjK4H' @ 72057594037927935 : 1 .. '!folders!Us4IKOsaUR5Q36vu' @ 0 : 0; will stop at (end)
+2024/01/24-12:06:03.363349 7f862aa4d700 Manual compaction at level-1 from '!actors!CuAFm8tw8tgKjK4H' @ 72057594037927935 : 1 .. '!folders!Us4IKOsaUR5Q36vu' @ 0 : 0; will stop at '!actors!yTRZgVXV54osEfg5' @ 40 : 0
+2024/01/24-12:06:03.363353 7f862aa4d700 Compacting 1@1 + 1@2 files
+2024/01/24-12:06:03.370773 7f862aa4d700 Generated table #37@1: 5 keys, 59820 bytes
+2024/01/24-12:06:03.370789 7f862aa4d700 Compacted 1@1 + 1@2 files => 59820 bytes
+2024/01/24-12:06:03.373418 7f862aa4d700 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/01/24-12:06:03.373490 7f862aa4d700 Delete type=2 #36
+2024/01/24-12:06:03.373566 7f862aa4d700 Delete type=2 #28
+2024/01/24-12:06:03.380479 7f862aa4d700 Manual compaction at level-1 from '!actors!yTRZgVXV54osEfg5' @ 40 : 0 .. '!folders!Us4IKOsaUR5Q36vu' @ 0 : 0; will stop at (end)
