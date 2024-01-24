@@ -46,9 +46,10 @@ Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "char
 
 ![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/1286067f-37f3-48fb-8e5b-d860ce6dea84)
 
-Aqui tenemos que seleccionar en Template una de las dos templates llamadas PJ_Template segun el siguiente criterio:
-* Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.
-* Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PJ_Template"**.
+Aqui tenemos que seleccionar en Template la que se llama **"PJ_Template"**.
+~~Aqui tenemos que seleccionar en Template una de las dos templates llamadas PJ_Template segun el siguiente criterio:~~
+~~* Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.~~
+~~* Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PJ_Template"**.~~
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
@@ -78,9 +79,10 @@ Hacemos click en Crear Actor, le ponemos un nombre y seleccionamos el tipo "char
 
 ![image](https://github.com/pedrobaringo/estirpe-de-dunwich-csb-templates-y-css/assets/148097688/1286067f-37f3-48fb-8e5b-d860ce6dea84)
 
-Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_Template segun el siguiente criterio:
-* Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PNJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.
-* Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PNJ_Template"**.
+Aqui tenemos que seleccionar en Template la que se llama **"PNJ_Template"**.
+~~Aqui tenemos que seleccionar en Template una de las dos templates llamadas PNJ_Template segun el siguiente criterio:~~
+~~* Si vamos a **usar el módulo Dice so Nice** (https://foundryvtt.com/packages/dice-so-nice) para ver las tiradas con dados 3D, debemos seleccionar la template **"PNJ_Template_DSN"**. Sin el módulo no funcionarán las tiradas con esta template.~~
+~~* Si **no vamos a usar ese módulo**, debemos seleccionar la template **"PNJ_Template"**.~~
 
 Una vez hemos seleccionado la template y hacemos click en el icono de refrescar en la ficha ya estamos listos para empezar a rellenarla.
 
