@@ -535,3 +535,71 @@ font-family:'Veneer';
 	height: 100%;
 	width: 100%;
 }
+.dice-tooltip .dice-rolls .roll.max {
+	filter: none;
+}
+.dice-tooltip .dice-rolls .roll.min {
+	filter: none;
+}
+.dice-tooltip img{
+	border:0px;
+	max-height: 60px;
+}
+.dice-tooltip .dice-rolls .roll.d6 riwhite{
+	background-image: none;
+}
+.custom-system-user-input-button[data-action="sub-10"] {
+	display:none;
+}
+.custom-system-user-input-button[data-action="add-10"] {
+	display:none;
+}
+.dice-roll .dice-formula {
+	display:none;
+}
+.dice-tooltip .part-header {
+	display:none;
+}
+.dice-total {
+	display:none;
+}
+.dice-tooltip .dice-rolls {
+	display: flex;
+ 	justify-content: center;
+}
+.dice-roll .dice-tooltip {
+	display: flex;
+ 	justify-content: center;
+}
+.chat-message .message-content hr {
+	display:none;
+}
+.chat-message .message-header {
+	border-bottom:2px solid #671308;
+}
+.chat-message .message-header .message-sender{
+	font-family: 'Veneer';
+	text-align:center;
+	font-size:30px;
+	text-wrap: wrap;
+	line-height:80%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color: #671308;
+	white-space: normal;
+}
+.message .message-header .message-metadata {
+	flex:0 0 50px;
+	margin-left: 0;
+}
+.message-timestamp {
+	font-family:'AlternateGothic';
+	text-wrap: wrap;
+	font-size:10px;
+}
+.chat-message {
+	background: url(../assets/Fondo_Estirpe.webp);
+	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+	background-clip: border-box;
+}
