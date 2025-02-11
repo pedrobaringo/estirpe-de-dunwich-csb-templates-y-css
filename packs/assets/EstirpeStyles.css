@@ -530,7 +530,7 @@ font-family:'AlternateGothic';
 .manifestaciones {
 	text-decoration: none;
 	grid-column: 1 / span 6;
-	background-image: url(../assets/Magnitudes%20Manifestación.JPG);
+	background-image: url(../assets/Magnitudes%20Manifestacion.JPG);
 	background-size: 100%, auto;
     background-repeat: no-repeat;
     background-position: left top;
